@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма замовлення</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <div class="BlockImage">
+        <div class="CircleBakc2"></div>
+        <img class="ImageStyle2" src="/Image/Varicose stop.png">
+        <div class="PriceBlock">
+            <span class="OldPrice">1800 грн</span>
+            <span class="NewPrice">199 грн</span>
+        </div>
+    </div>
+    
+    <form class="FormContainer" onsubmit="return handleSubmit(event)">
+
+        <input class="Input" type="text" name="name" id="name" placeholder="Ім’я" required>
+        <input class="Input" type="tel" name="phone" id="phone" placeholder="Номер телефону" required>
+
+        <input type="hidden" name="pixel" value="fb_123456">
+        <input type="hidden" name="subid" value="subid_value">
+        <input type="hidden" name="subid1" value="subid1_value">
+        <input type="hidden" name="subid2" value="">
+        <input type="hidden" name="subid3" value="">
+        <input type="hidden" name="subid4" value="">
+        <input type="hidden" name="subid5" value="">
+
+        <button class="SubmitButton" type="submit">Замовити</button>
+        <div class="error" id="errorMsg"></div>
+    </form>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

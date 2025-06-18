@@ -1,0 +1,294 @@
+.MainContainer{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-y: scroll;
+}
+.HeaderContainer{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgb(47, 47, 47,0.1);
+    z-index: 5;
+    position: fixed;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.AllMainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.VaricosTitle{
+    color: #5c1021;
+}
+.ListContainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.SubmitButton{
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: #5c1021;
+    color: white;
+}
+.SubmitButton:hover{
+    transform: scale(1.1);
+    background-color: #6f1d2f;
+}
+
+
+.ViewVaricosContainer{
+    width: 90%;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.CircleBakc{
+    position: absolute;
+    width: 70vh;
+    height: 70vh;
+    background-color: #5c1021;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgb(47, 47, 47,0.2);
+    margin-left: -10%;
+
+    z-index: -1;
+
+}
+.ImageStyle{
+    position: absolute;
+    width: 50vh;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.TitleMainContainer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35%;
+}
+.VaricosTitle2{
+    color: #5c1021;
+    font-size: 8vh;
+}
+.VaricosDiscript{
+    color: #5b2631;
+    font-size: 30px;
+    margin-top: -20px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(47, 47, 47,0.1);
+}
+.VaricosP{
+    font-size: 5vh;
+    margin-top: -10px;
+}
+.SubmitButtontwo{
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #6b2030;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.SubmitButtontwo:hover{
+    transform: scale(1.05);
+    background-color: #80293c;
+}
+.InfoContainer{
+    width: 100%;
+    height: 500px;
+    color: white;
+    margin-top: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #5c1021
+
+}
+.ImageInfo{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(47, 47, 47,0.3);
+
+    transition: all 0.2s ease;
+}
+.ImageInfo:hover{
+    transform: scale(0.95);
+}
+.BlockInfo{
+    width: 45vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
+     box-shadow: 0px 0px 30px rgb(47, 47, 47,0.4);
+}
+.VaricosInfo{
+    width: 90%;
+}
+.DiscriptInfo{
+    width: 90%;
+    font-size: 2.7vh;
+}
+.ReviewsButton{
+    border: none;
+    background-color: #6b2030;
+    color: white;
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.ReviewsButton:hover{
+    transform: scale(1.05);
+}
+.LogoButCont{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ScladMain{
+    display: flex;
+    padding: 50px;
+
+}
+.ScladContainer{
+    width: 50%;
+}
+.CircleBakc2{
+    position: absolute;
+    width: 70vh;
+    height: 70vh;
+    background-color: #5c1021;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgb(47, 47, 47,0.2);
+    margin-left: 15%;
+
+    z-index: -1;
+
+}
+.ImageStyle2{
+    position: absolute;
+    width: 50vh;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.LiContainer{
+    font-size: 2.5vh;
+}
+.ScladH1{
+    color: #5c1021;
+    font-size: 6vh;
+}
+
+.SubmitButton3{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #6b2030;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.SubmitButton3:hover{
+    transform: scale(1.02);
+    background-color: #80293c;
+}
+
+.ReviewContainer{
+    width: 100%;
+    height: 400px;
+
+    background-color: #5b2631;
+    z-index: -2;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AvatarImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.ReviewCard{
+    width: 80%;
+    height: 70%;
+    border: solid 1px #c4c4c4;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.TitleReview{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.DoctorReview{
+    padding: 30px;
+    margin-top: -20px;
+}
+.Review{
+    font-size: 3vh;
+}
+.FooterContainer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+  text-decoration: none;     /* прибирає підкреслення */
+  color: inherit;            /* колір як у батьківського елемента */
+  outline: none;             /* прибирає рамку при фокусі */
+}
+
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  color: inherit;            /* не змінює колір при наведенні, кліку тощо */
+  text-decoration: none;
+  outline: none;
+}
