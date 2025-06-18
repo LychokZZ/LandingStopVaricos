@@ -84,3 +84,43 @@ body{
     color: #e00027;
     font-weight: bold;
 }
+
+@media (max-width: 600px) {
+    html, body {
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    .CircleBakc2{
+        
+        margin-left: -50%;
+        margin-top: 30%;
+        width: 100vh;
+    }
+    .ImageStyle2{
+        width: 330px;
+        height: auto;
+        margin-top: -35%;
+        margin-left: -5%;
+    }
+    .FormContainer{
+        margin-left: -30%;
+        margin-top: 400px;
+    }
+    .Input{
+        width: 60vw;
+    }
+    .SubmitButton{
+        width: 60vw;
+    }
+    .PriceBlock {
+        margin-top: -60%;
+        margin-left: 40%;
+        background-color: #6f1c2e;
+    }
+    .NewPrice{
+        color: white;
+    }
+
+}

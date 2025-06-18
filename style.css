@@ -1,3 +1,6 @@
+body{
+        overflow: hidden;
+    }
 .MainContainer{
     width: 100vw;
     height: 100vh;
@@ -24,6 +27,7 @@
 }
 .VaricosTitle{
     color: #5c1021;
+    font-size: 3vh;
 }
 .ListContainer{
     width: 50%;
@@ -279,16 +283,168 @@
     justify-content: center;
 }
 a {
-  text-decoration: none;     /* прибирає підкреслення */
-  color: inherit;            /* колір як у батьківського елемента */
-  outline: none;             /* прибирає рамку при фокусі */
+  text-decoration: none;    
+  color: inherit;            
+  outline: none;            
 }
 
 a:visited,
 a:hover,
 a:focus,
 a:active {
-  color: inherit;            /* не змінює колір при наведенні, кліку тощо */
+  color: inherit;            
   text-decoration: none;
   outline: none;
+}
+
+@media (max-width: 1000px) {
+    .CircleImageContainer{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        margin-top: 50px;
+    }
+    .VaricosTitle{
+
+    }
+    .HeaderContainer{
+
+    }
+    .ListContainer{
+        display: none;
+    }
+    .CircleBakc2{
+        width: 40vh;
+        height: 40vh;
+        margin-top: 90%;
+        margin-left: 0%;
+        opacity: 0.1;
+    }
+    .CircleContainer{
+        width: 90vw;
+        height: 100vh;
+        position: absolute;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .CircleBakc{
+        position: absolute;
+        margin-top: -40px;
+        width: 50vh;
+        height: 50vh;
+
+        z-index: -1;
+        margin-bottom: 200px;
+    }
+    .ImageStyle{
+        position: relative;
+        width: 180px;
+        margin-top: 4%;
+        margin-left: 0%;
+
+    }
+    .ImageStyle2{
+        display: none;
+        width: 50px;
+        margin-top: 0;
+        margin-left: 50%;
+    }
+    
+    .ViewVaricosContainer{
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    .TitleReview{
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: small;
+    }
+    .DiscriptInfo{
+        font-size: 2vh;
+    }
+    .VaricosP{
+        font-size: 2vh;
+    }
+    .VaricosTitle2{
+        font-size: 4vh;
+    }
+    .ViewVaricosContainer{
+        flex-direction: column;
+    }
+    .TitleMainContainer{
+        width: 90%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+        margin-bottom: -20px;
+    }
+    .InfoContainer{
+        width: 100vw;
+        height: 700px;
+        color: white;
+        margin-top: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #5c1021
+
+    }
+    .ImageInfo{
+        width: 175px;
+        height: 140px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgb(47, 47, 47,0.3);
+
+        transition: all 0.2s ease;
+    }
+    .BlockInfo{
+        width: 90%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: black;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0px 0px 30px rgb(47, 47, 47,0.4);
+    }
+    .ImageLegth{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .ScladContainer{
+        width: 100%;
+    }
+    .ScladH1{
+        font-size: 4vh;
+    }
+    .ScladMain{
+        display: flex;
+        padding: 20px;
+
+    }
+    .Review{
+        font-size: 1.5vh;
+    }
+    .FooterContainer{
+        font-size: 1.5vh;
+    }
 }
