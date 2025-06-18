@@ -67,7 +67,7 @@ body{
     background-color: #5c1021;
     border-radius: 50%;
     box-shadow: 0px 0px 20px rgb(47, 47, 47,0.2);
-    margin-left: -10%;
+    margin-left: -10vw;
 
     z-index: -1;
 
@@ -194,6 +194,11 @@ body{
 .ScladContainer{
     width: 50%;
 }
+.ImageLegth{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
 .CircleBakc2{
     position: absolute;
     width: 70vh;
@@ -201,7 +206,7 @@ body{
     background-color: #5c1021;
     border-radius: 50%;
     box-shadow: 0px 0px 20px rgb(47, 47, 47,0.2);
-    margin-left: 15%;
+    margin-left: 5%;
 
     z-index: -1;
 
@@ -296,7 +301,16 @@ a:active {
   text-decoration: none;
   outline: none;
 }
+@media (max-width: 1100px) {
+    .ImageInfo{
+        width: 200px;
+        height: 140px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgb(47, 47, 47,0.3);
 
+        transition: all 0.2s ease;
+    }
+}
 @media (max-width: 1000px) {
     .CircleImageContainer{
         width: 100%;
